@@ -36,6 +36,7 @@ group :development, :test do
   gem 'rubocop'
 end
 group :test do
+  gem 'rake'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
