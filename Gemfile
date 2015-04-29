@@ -15,6 +15,7 @@ gem 'devise-i18n'
 gem 'mysql2'
 gem 'simple_form'
 group :development do
+  gem 'travis'
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
   gem 'guard-bundler'
